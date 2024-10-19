@@ -1,0 +1,13 @@
+
+@media only screen and (width  < 1067px) {
+  .special-list{
+   flex-wrap: wrap;
+  }
+}
+
+@media only screen and (width  < 1000px) {
+    .special-layer {
+        background-color: "red" !important;
+      width:"200px"
+    }
+  }

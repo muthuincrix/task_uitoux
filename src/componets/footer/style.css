@@ -1,0 +1,9 @@
+.corner-div {
+    width: 300px;
+    height: 200px;
+    background-color: #ff2525;
+    /* color: white;
+    position: relative; */
+    clip-path:polygon(14% 0, 18% 14%, 79% 14%, 84% 0, 100% 0, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0 0);
+  }
+  

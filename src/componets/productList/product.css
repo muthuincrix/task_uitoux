@@ -1,0 +1,72 @@
+html {
+    background: #f4f4f4;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    position: relative;
+    background: maroon;
+    display: inline-block;
+    color: white;
+    padding: .24em .3em .25em;
+  }
+  
+  h4 {
+    background: none;
+    color: #444;
+  }
+  
+
+  h1, h2 {
+      &:after {
+          position: absolute;
+          z-index: -1;
+          content: "";
+          right: -10%;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          background-color: inherit;
+          -webkit-transform: skewX(-10deg);
+          -moz-transform: skewX(-10deg);
+          -ms-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+      }
+  }
+  
+
+  h1, h3 {
+      &:before {
+          z-index: -1;
+          content: "";
+          position: absolute;
+          left: -10%;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          background-color: inherit;
+          -webkit-transform: skewX(-10deg);
+          -moz-transform: skewX(-10deg);
+          -ms-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+      }
+  }
+  
+
+  h4 {
+    &:after {
+      z-index: -1;
+          content: "";
+          position: absolute;
+          top: 0;
+       left: 0;
+          height: 100%;
+          width: 100%;
+          background-color: inherit;
+       border: 1px solid maroon;
+          -webkit-transform: skewX(-10deg);
+          -moz-transform: skewX(-10deg);
+          -ms-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+    }
+  }

@@ -1,0 +1,73 @@
+
+  .banner-container1 {
+    position: relative;
+    width: 50%;
+    height: 200px; 
+    background-image: url('../../source-images/banner1.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+  .banner-container2 {
+    position: relative;
+    width: 50%;
+    height: 200px; 
+    background-image: url('../../source-images/banner2.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; 
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 110), rgba(0, 0, 0, .05));
+    z-index: 1;
+  }
+  
+  .banner-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .textPoster {
+    text-align: start;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFD700;
+  
+  }
+  
+  .textP {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: start;
+    color: white;
+  }
+  
+  .shop-now-button {
+    text-align: start;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: white;
+    margin-right: auto;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-button:hover {
+    background-color: darkred;
+  }

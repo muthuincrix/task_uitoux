@@ -1,0 +1,19 @@
+.logo-grid {
+    display: grid;
+    padding: 20px;
+  }
+  
+  .logo-item {
+    text-align: center;
+  }
+  
+  .logo-image {
+    margin: 20px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;  /* Text color */
+  }
+  
